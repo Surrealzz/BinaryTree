@@ -17,9 +17,12 @@
             font-family: 'Poppins', sans-serif;
             background-color: #F0F4F8;
             color: #333;
+            margin: 0;
+            padding: 0;
         }
         header {
             background-color: #E5EEFC;
+            padding: 10px 0;
         }
         .navbar-brand img {
             height: 50px;
@@ -27,38 +30,36 @@
         .page-banner {
             background-color: #C4CEDC;
             color: #333;
-            padding: 50px 0;
+            padding: 70px 0;
+            text-align: center;
         }
         .page-banner h2 {
             font-size: 36px;
             font-weight: 700;
-            margin-left: 15%;
+            margin: 0;
         }
         .interior-design {
             background-color: #E5EEFC;
             color: #333;
-            padding: 50px 0;
+            padding: 50px 15px;
         }
-        .interior-design .left-image img {
-            width: 100%;
-            max-width: 300px;
-            border-radius: 10px;
+        .interior-design .container {
+            max-width: 1200px;
+            margin: 0 auto;
         }
-        .interior-design .right-content {
-            padding: 20px;
-        }
-        .profile-photo {
+        .interior-design .profile-photo {
             width: 150px;
             border-radius: 50%;
+            margin-right: 20px;
         }
-        .profile-info {
+        .interior-design .profile-info {
             margin-top: 20px;
         }
-        .profile-info h3 {
+        .interior-design .profile-info h3 {
             font-size: 24px;
             font-weight: 500;
         }
-        .profile-info p {
+        .interior-design .profile-info p {
             font-size: 16px;
         }
         .accordion-item {
@@ -96,7 +97,11 @@
         }
         .partners-section {
             background-color: #E5EEFC;
-            padding: 50px 0;
+            padding: 50px 15px;
+        }
+        .partners-section .container {
+            max-width: 1200px;
+            margin: 0 auto;
         }
         .partners-section .partner-image {
             width: 100%;
@@ -114,6 +119,14 @@
             text-decoration: none;
             border-radius: 5px;
         }
+        .team-member {
+            background-color: #E5EEFC;
+            padding: 50px 15px;
+        }
+        .team-member h2 {
+            font-size: 24px;
+            font-weight: 500;
+        }
     </style>
 </head>
 
@@ -122,7 +135,6 @@
         <nav class="main-navigation navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>
-                
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -145,64 +157,29 @@
 
     <div class="page-banner">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="header-text">
-                        <h2><em>About The</em> Binary Tree Team</h2>
-                        <p>Binary Trees operates internationally</p>
-                    </div>
-                </div>
-            </div>
+            <h2><em>About The</em> Binary Tree Team</h2>
+            <p>Binary Trees operates internationally</p>
         </div>
     </div>
 
     <section class="interior-design">
-        <div class="container expanded">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Meet Our Cofounders</h2>
+            </div>
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-heading">
-                        <h2>Binary Tree<br><em>Team</em>.</h2>
-                    </div>
-                    <div class="left-image">
-                        <img src="assets/images/ben.jpeg" alt="Benjamin Standefer">
+                <div class="col-lg-6 d-flex align-items-center">
+                    <img src="assets/images/ben.jpeg" alt="Benjamin Standefer" class="profile-photo">
+                    <div class="profile-info">
+                        <h3>Benjamin Standefer</h3>
+                        <p>Benjamin is a junior at St. Mark's School of Texas. He founded BinaryTree because of his love of programming and his desire to change the world for the better. Outside of service projects and science fairs, he enjoys reading and rowing.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="right-content">
-                        <div class="profile-info">
-                            <h3>Cofounder</h3>
-                            <p>Benjamin Standefer is a junior at St. Mark's School of Texas. He founded BinaryTree because of his love of programming and his desire to change the world for the better. Outside of this, he enjoys reading and rowing.</p>
-                        </div>
-                        <div class="accordion" id="accordionExample">
-                            <h4>FAQ</h4>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <span class="accordion-button">How can I join?</span>
-                                </h2>
-                                <div class="accordion-body">
-                                    <p>You can join our community on Discord at <a href="https://discord.gg/Sxky23CV" target="_blank">this link</a> or email us to partner at <a href="mailto:binarytree61@gmail.com">binarytree61@gmail.com</a>.</p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <span class="accordion-button">What do you do?</span>
-                                </h2>
-                                <div class="accordion-body">
-                                    <p>Binary Tree focuses on programming and technology education, aiming to empower individuals through coding skills and knowledge.</p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <span class="accordion-button">How can I support?</span>
-                                </h2>
-                                <div class="accordion-body">
-                                    <p>You can support us by participating in our fundraisers, sharing our mission on social media, or making a donation.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="white-button">
-                            <a href="contact.html">Get in Touch</a>
-                        </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <img src="assets/images/kesh.jpeg" alt="Keshav" class="profile-photo">
+                    <div class="profile-info">
+                        <h3>Keshav Balakrishna</h3>
+                        <p>Keshav is currently a junior in Jordan High School in Texas with a strong passion in Computer Science & Math. He enjoys programming in his free time and competed in coding-related contests such as USACO. Along with Benjamin, he co-founded BinaryTree in order to teach others and share the joy of programming to the underprivileged. Outside of programming, he also enjoys listening to rap/hip-hop(such as Central Cee & 21 Savage) & playing soccer with friends.</p>
                     </div>
                 </div>
             </div>
@@ -215,17 +192,61 @@
                 <div class="col-lg-6">
                     <h2>Current Partners</h2>
                     <img src="assets/images/tedi.jpeg" alt="TEDI Tanzania" class="partner-image">
-                    <p class="description">TEDI Tanzania is a nonprofit organization dedicated to providing computer skills training to students in Tanzania. They work to equip young minds with the tools they need to succeed in a digital world.</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="description">TEDI Tanzania is dedicated to supporting educational initiatives in Tanzania. They help children learn programming and technology skills, aligning with our mission to empower youth through education.</p>
                     <div class="donate-link">
-                        <a href="https://www.globalgiving.org/projects/equip-computer-skills-to-students-in-tanzania/" target="_blank">Donate to TEDI Tanzania</a>
+                        <a href="https://donate.example.com" target="_blank">Donate Now</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="interior-design">
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <h4>FAQ</h4>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <span class="accordion-button">How can I join?</span>
+                    </h2>
+                    <div class="accordion-body">
+                        <p>You can join our community on Discord at <a href="https://discord.gg/Sxky23CV" target="_blank">this link</a> or email us to partner at <a href="mailto:binarytree61@gmail.com">binarytree61@gmail.com</a>.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <span class="accordion-button">What do you do?</span>
+                    </h2>
+                    <div class="accordion-body">
+                        <p>Binary Tree focuses on programming and technology education, aiming to empower individuals through coding skills and knowledge.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <span class="accordion-button">How can I support?</span>
+                    </h2>
+                    <div class="accordion-body">
+                        <p>You can support us by participating in our fundraisers, sharing our mission on social media, or making a donation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="white-button">
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Binary Tree. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
