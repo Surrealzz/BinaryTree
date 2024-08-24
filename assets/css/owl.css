@@ -1,0 +1,24 @@
+/* Owl Carousel styles */
+.owl-carousel .item {
+    margin: 5px;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.owl-carousel .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
