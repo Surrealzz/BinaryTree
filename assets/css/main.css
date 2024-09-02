@@ -126,6 +126,17 @@ header {
     border-radius: 5px;
 }
 
+/* Footer */
+.footer {
+    background-color: #1e3d59;
+    color: #e5eefc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
 /* Random stuff for random pages */
 /* Please sort this if you can :) */
 .loader svg {
@@ -139,12 +150,6 @@ header {
     font-size: 18px;
     color: #666;
     line-height: 1.6;
-}
-.footer {
-    background-color: #1e3d59;
-    color: #e5eefc;
-    padding: 20px 0;
-    text-align: center;
 }
 .icon-section {
     padding: 80px 0;
@@ -236,23 +241,6 @@ header {
 
 .contact-info strong {
     color: #007bff;
-}
-
-.alt_footer {
-    background-color: #C4CEDC;
-    color: #333;
-    padding: 20px;
-    text-align: center;
-    font-size: 1rem;
-}
-
-.alt_footer a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.alt_footer a:hover {
-    text-decoration: underline;
 }
 .interior-design {
     background-color: #E5EEFC;
