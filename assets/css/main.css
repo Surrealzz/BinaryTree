@@ -1,0 +1,324 @@
+/* Full Body CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f5f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+header {
+    background-color: #E5EEFC;
+    padding: 0px;
+}
+.top-bar {
+    background-color: #1e3d59;
+    padding: 10px 0;
+    text-align: center;
+    color: #e5eefc;
+}
+.top-bar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.top-bar .nav-item i {
+    font-size: 24px;
+    color: #e5eefc;
+}
+.navbar-nav .nav-link.active {
+    color: #007bff;
+}
+.navbar-brand img {
+    max-width: 150px;
+}
+
+/* Banners */
+.main-banner {
+    background: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)), url('assets/images/banner.jpg') center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+.main-banner h2 {
+    color: #e5eefc;
+    font-size: 48px;
+    font-weight: 900;
+    padding-left: 20px; /* Moves text to the right */
+}
+.page-banner {
+    background-color: #C4CEDC; /* Matching the page-banner color from the second page */
+    color: #333;
+    padding: 60px 0px;
+    text-align: center;
+}
+.page-banner h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.page-banner p {
+    font-size: 18px;
+    color: #555;
+}
+.header-text h6 {
+    color: #e5eefc;
+    font-weight: 700;
+    padding-left: 20px; /* Moves text to the right */
+}
+.header-text h2 {
+    font-size: 3rem;
+    color: #333;
+}
+.header-text a {
+    background-color: #1e3d59;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+/* Section Dividers */
+.section-heading h2 {
+    font-size: 36px;
+    color: #1e3d59;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-heading h2 em {
+    font-style: normal;
+    color: #6279b8;
+}
+
+/* Buttons */
+.primary-button a {
+    color: #1e3d59;
+    background-color: #e5eefc;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+.primary-button a:hover {
+    background-color: #6279b8;
+    color: white;
+}
+.accordion-button {
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+    font-weight: 500;
+    color: #333;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #C4CEDC;
+}
+.accordion-body {
+    background-color: #F0F4F8;
+    color: #333;
+}
+.white-button a {
+    color: #E5EEFC;
+    background-color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Random stuff for random pages */
+/* Please sort this if you can :) */
+.loader svg {
+    fill: #6279b8;
+}
+.explore-work .left-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.right-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+.footer {
+    background-color: #1e3d59;
+    color: #e5eefc;
+    padding: 20px 0;
+    text-align: center;
+}
+.icon-section {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+.icon-section .icon-wrapper {
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #e5eefc;
+    line-height: 120px;
+}
+.icon-section .icon-wrapper i {
+    font-size: 48px;
+    color: #1e3d59;
+}
+.explore-item {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+.info-item {
+    background-color: #f7faff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.info-item h6 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.info-item span {
+    font-size: 16px;
+    color: #333;
+}
+.main-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.loader svg rect {
+    fill: #007bff;
+}
+.info-item-icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+}
+.best {
+    background-color: #f0f4f8; 
+    border-radius: 12px;
+    padding: 30px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif; 
+}
+.contact-page-map {
+    margin: 40px 0;
+}
+#map iframe {
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+}
+.contact-info {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact-info h4 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.contact-info strong {
+    color: #007bff;
+}
+
+.alt_footer {
+    background-color: #C4CEDC;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.alt_footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.alt_footer a:hover {
+    text-decoration: underline;
+}
+.interior-design {
+    background-color: #E5EEFC;
+    color: #333;
+    padding: 50px 15px;
+}
+.interior-design .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.interior-design .profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.interior-design .profile-info {
+    margin-top: 20px;
+}
+.interior-design .profile-info h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.interior-design .profile-info p {
+    font-size: 16px;
+}
+.accordion-item {
+    border: none;
+    margin-bottom: 15px;
+}
+.accordion-header {
+    background-color: #E5EEFC;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.partners-section {
+    background-color: #E5EEFC;
+    padding: 50px 15px;
+}
+.partners-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.partners-section .partner-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+.partners-section .description {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.partners-section .donate-link a {
+    color: #E5EEFC;
+    background-color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.team-member {
+    background-color: #E5EEFC;
+    padding: 50px 15px;
+}
+.team-member h2 {
+    font-size: 24px;
+    font-weight: 500;
+    
+}
