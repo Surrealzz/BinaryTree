@@ -36,11 +36,12 @@ header {
 
 /* Banners */
 .main-banner {
-    background: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)), url('assets/images/banner.jpg') center center;
+    background: linear-gradient(rgba(0, 0, 50, 0.1), rgba(0, 0, 50, 0.3)), url('assets/images/banner.jpg') center center;
     background-size: cover;
     color: white;
     padding: 100px 0;
 }
+
 .main-banner h2 {
     color: #e5eefc;
     font-size: 48px;
