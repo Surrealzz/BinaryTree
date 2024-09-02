@@ -64,7 +64,7 @@ header {
     color: #555;
 }
 .header-text h6 {
-    color: #e5eefc;
+    color: #333;
     font-weight: 700;
     padding-left: 20px; /* Moves text to the right */
 }
